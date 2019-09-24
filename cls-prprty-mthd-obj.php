@@ -1,9 +1,14 @@
 <?php
+
+    //https://www.php.net/manual/en/language.oop5.basic.php
     class person{   //"person" is a class
 
+
+        // property declaration
         public $name="Tofayel Hyder Abhi";
         public $age; // "$name and $age" are property. we can assign the value from object
 
+        // method declaration
         public function personName($a){    //"personName" is method
             echo "Person name is Abhi ".$a;
             
